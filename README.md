@@ -1,5 +1,6 @@
 # Streamlit Template
 
+This repository holds the template you can use to create the streamlit dashboard for your project. To use it, fork the repository and the clone the fork into your machine, and fill out the template in `src/template.py`. For more information on streamlit, you can read [the docs](https://docs.streamlit.io/get-started). You can also check the [example from class](https://simpson-dashboard-class.streamlit.app/) and its [code](https://github.com/RodrigoGrijalba/python-dashboard-class).
 ## Run locally
 
 If you would like to make your presentation from a localy hosted page

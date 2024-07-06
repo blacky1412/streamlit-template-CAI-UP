@@ -12,6 +12,11 @@ tab1, tab2, tab3, tab4 = st.tabs(["Original Paper", "Proposed Extention", "Exten
 
 with tab1:
     st.markdown("""
+    ### Design description
+    
+    ### Data
+
+    ### Original results
     <<Your description here, in Markdown>>
     """
     )
@@ -20,6 +25,9 @@ with tab1:
 with tab2:
 
     st.markdown("""
+    ### Proposed extension
+
+    ### Justification
     <<Your description here, in Markdown>>
     """
     )
@@ -31,6 +39,8 @@ with tab2:
 with tab3:
 
     st.markdown("""
+    ### Extension results
+
     <<Your description here, in Markdown>>
     """
     )

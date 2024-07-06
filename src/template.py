@@ -24,6 +24,8 @@ with tab2:
     """
     )
     # st.image("<<path to image from project's root, if needed>>") # uncomment this line if you would like to add an image
+    # table = pd.read_csv("<<path/to/table.csv>>") # load a table from csv to show it on the page
+    # st.table(table) # show table
 
 
 with tab3:

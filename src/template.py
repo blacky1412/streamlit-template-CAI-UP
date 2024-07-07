@@ -101,6 +101,8 @@ with tab3:
     st.markdown("""
     ### Causal Forest Results
 
+    Performing a Causal Forest with depth 2 yielded age as the first level of heterogeneity (cutoff at 22.5). For those younger that 22.5 we explore heterogeneities by imd_decile (cutoff at 3.5). For those older than 22.5, we explore heterogeneities by gender. 
+
   
     """
     )
@@ -108,7 +110,11 @@ with tab3:
     table = pd.read_csv("src/het_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table
 
-    st.markdown(""" ### Double Lasso Results """)
+    st.markdown(""" ### Double Lasso Results
+    
+    * Performing double lasso on the outcome against the treatment yielded an estimate of 25pp, significant at the 99% confidence level
+    * Performing double lasso on the coefficient of the interaction term (gender_male X treatment) yields an estimate of -7pp, significant at the 99% confidence level
+    """)
     
     table = pd.read_csv("src/ate_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table

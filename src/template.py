@@ -28,21 +28,12 @@ with tab2:
     ### Proposed extension
 
 ### Causal Tree
-    - Why this method fits: This methods allows us to find possible heterogeneous effects
-among covariate groups. The group selection isn’t done arbitrarily, but rather based on
-how much belonging in a specific group explains the outcome’s variance.
-
-    - Hypothesis when using Causal Machine Learning Method: We think age will be the
-first variable of the regression tree.
+*Why this method fits: This methods allows us to find possible heterogeneous effects among covariate groups. The group selection isn’t done arbitrarily, but rather based on how much belonging in a specific group explains the outcome’s variance. 
+*Hypothesis when using Causal Machine Learning Method: We think age will be the first variable of the regression tree.
 ### Double Lasso
-
-    Having established the heterogeneities to be studied, we’ll estimate the interaction’s
-coefficient using partitioned regression (FWL) by using double lasso.
-    - Why this method fits: This method should allow us to reduce the point estimate’s
-standard error. This increases the chances of rejecting the null hypothesis on
-non-significance.
-    - Hypothesis when using Causal Machine Learning Method: We think that by doing
-double lasso we can find heterogeneous effects.
+*Having established the heterogeneities to be studied, we’ll estimate the interaction’s coefficient using partitioned regression (FWL) by using double lasso.
+*Why this method fits: This method should allow us to reduce the point estimate’s standard error. This increases the chances of rejecting the null hypothesis on non-significance.
+*Hypothesis when using Causal Machine Learning Method: We think that by doing double lasso we can find heterogeneous effects.
     
     
     """

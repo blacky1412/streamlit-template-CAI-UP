@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 # I have provided most of what you need for to use streamlit here and in README.md
 # You can also check the streamlit docs at https://docs.streamlit.io/get-started

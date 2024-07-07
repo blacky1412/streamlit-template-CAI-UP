@@ -8,7 +8,7 @@ import streamlit as st
 
 st.set_page_config(page_title = "<<Your page title here>>", layout = "wide")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Original Paper", "Proposed Extention", "Extenson Results", "Referencres"])
+tab1, tab2, tab3, tab4 = st.tabs(["Original Paper", "Proposed Extention", "Extension Results", "Referencres"])
 
 with tab1:
     st.markdown("""
@@ -46,7 +46,7 @@ with tab2:
 with tab3:
 
     st.markdown("""
-    ### Extension results
+    ### Extension Results
 
     <<Your description here, in Markdown>>
     """

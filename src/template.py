@@ -8,8 +8,7 @@ import pandas as pd
 # GitHub Repo: https://github.com/RodrigoGrijalba/python-dashboard-class
 
 st.set_page_config(page_title = "Internet-accessed sexually transmitted infection (e-STI) testing
-and results service: A randomised, single-blind, controlled trial.
-", layout = "wide")
+and results service: A randomised, single-blind, controlled trial", layout = "wide")
 
 tab1, tab2, tab3, tab4 = st.tabs(["Original Paper", "Proposed Extention", "Extension Results", "References"])
 

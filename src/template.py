@@ -99,6 +99,11 @@ with tab2:
 with tab3:
 
     st.markdown("""
+    ### Descriptive Statistics""")
+    st.image("src/gender.jpeg")
+    st.image("src/ethnicity.jpeg")
+    
+    st.markdown("""
     ### Causal Forest Results
 
     Performing a Causal Forest with depth 2 yielded age as the first level of heterogeneity (cutoff at 22.5). For those younger that 22.5 we explore heterogeneities by imd_decile (cutoff at 3.5). For those older than 22.5, we explore heterogeneities by gender. 

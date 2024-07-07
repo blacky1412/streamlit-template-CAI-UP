@@ -14,7 +14,7 @@ with tab1:
     st.markdown("""
     ### Design description
 
-    ### Experiment Design Description
+### Experiment Design Description
 
 #### Objective
 The trial aimed to evaluate the effectiveness of an e-STI testing and results service (SH:24) on the uptake of STI testing and the number of STI cases diagnosed and treated.
@@ -64,8 +64,14 @@ Description of Data: The data includes participants aged 16 to 30, residing in L
 * Unit of Observation: The units of observation are at the individual level
 * Experiment or Quasi-experiment: An RCT experimental design is followed.
 
-    ### Original results
-    <<Your description here, in Markdown>>
+### Original results
+
+- **Result 1:** Increase in self-report STI testing by 23.4*** (control group mean = 26.6%)
+- **Result 2:** Increase in STI diagnosis by 1.4*(control group mean = 1.4%)
+- **Result 3:** Treated units tested for STI 7.7*** days sooner on average (control groupmean = 36.5)
+- **Results 4:** No signifcant heterogeneous effects were found.
+
+    
     """
     )
     # st.image("<<path to image from project's root, if needed>>") # uncomment this line if you would like to add an image

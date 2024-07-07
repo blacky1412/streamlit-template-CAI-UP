@@ -99,7 +99,7 @@ with tab2:
 with tab3:
 
     st.markdown("""
-    ### Extension Results
+    ### Causal Forest Results
 
   
     """
@@ -107,9 +107,12 @@ with tab3:
     st.image("src/causalforest.png") # uncomment this line if you would like to add an image
     table = pd.read_csv("src/het_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table
+
+    st.markdown(""" ### Double Lasso Results """)
     
     table = pd.read_csv("src/ate_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table
+    st.markdown(""" ### Generalize Random Forest Results """)
 
 with tab4:
 

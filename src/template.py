@@ -13,8 +13,56 @@ tab1, tab2, tab3, tab4 = st.tabs(["Original Paper", "Proposed Extention", "Exten
 with tab1:
     st.markdown("""
     ### Design description
-    
+
+    ### Experiment Design Description
+
+#### Objective
+The trial aimed to evaluate the effectiveness of an e-STI testing and results service (SH:24) on the uptake of STI testing and the number of STI cases diagnosed and treated.
+
+#### Participants
+- **Eligibility Criteria:**
+  - Young people aged 16 to 30 years.
+  - Residents of the London boroughs of Lambeth and Southwark.
+  - Sexually active (at least one sexual partner in the last 12 months).
+  - Willingness to take an STI test.
+  - Access to the internet.
+- **Exclusion Criteria:**
+  - Inability to read English (the websites were only in English).
+  - Inability to provide consent.
+
+#### Recruitment
+- **Timeframe:** Between 24 November 2014 and 31 August 2015.
+- **Methods:**
+  - Community settings such as universities, colleges, market stalls, barber shops, bars, and nightclubs.
+  - Online platforms like Facebook, Twitter, and Grindr.
+  - Advertisements through advocacy and health promotion groups.
+
+#### Randomisation and Allocation
+- An independent computer-based randomisation program allocated participants to either the intervention or control group.
+- **Randomisation Method:** Minimisation algorithm balancing for gender, age, number of sexual partners in the last 12 months, and sexual orientation.
+- Participants received an automated SMS text message with the URL of the allocated STI service.
+
+#### Intervention and Control
+- **Intervention Group:** Received access to the SH:24 e-STI testing and results service, which included postal self-sampling test kits for chlamydia, gonorrhoea, HIV, and syphilis; results delivered via text message or telephone; and web-based safer sex health information.
+- **Control Group:** Received access to usual STI testing services.
+
+#### Blinding
+- Laboratory staff and researchers assessing outcomes were blinded to the treatment allocation.
+
+#### Data Collection
+- **Baseline Data:** Collected through face-to-face interactions or entered by participants on the trial website.
+- **Follow-up Data:** Self-reported data collected by post or directly entered on a website, incentivised with monetary rewards.
+- **Objective Measures:** Searched SH:24 database and hospital patient records for STI testing, diagnosis, and treatment data.
+
+#### Sample Size and Statistical Analysis
+- **Sample Size:** 3,000 participants.
+- **Power:** 90% power to detect a relative risk (RR) of 3.5 for STI diagnosis and 99% power to detect an absolute difference of 25% in the proportion of participants who completed a test.
+- **Analysis Method:** Intention to treat basis, using Stata version 14.2, with effect measures as RRs with 95% confidence intervals and time to outcomes.
+
     ### Data
+Description of Data: The data includes participants aged 16 to 30, residing in London boroughs of Lambeth and Southwark, who are sexually active, have internet access, and are willing to take an STI test.
+* Unit of Observation: The units of observation are at the individual level
+* Experiment or Quasi-experiment: An RCT experimental design is followed.
 
     ### Original results
     <<Your description here, in Markdown>>

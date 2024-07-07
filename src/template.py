@@ -100,10 +100,10 @@ with tab3:
     st.markdown("""
     ### Extension Results
 
-    <<Your description here, in Markdown>>
+  
     """
     )
-    # st.image("<<path to image from project's root, if needed>>") # uncomment this line if you would like to add an image
+     st.image("src/causalforest.png") # uncomment this line if you would like to add an image
 
 with tab4:
 

@@ -112,7 +112,11 @@ with tab3:
     
     table = pd.read_csv("src/ate_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table
+    
     st.markdown(""" ### Generalize Random Forest Results """)
+    st.image("src/Random Forest.jpeg") 
+
+
 
 with tab4:
 

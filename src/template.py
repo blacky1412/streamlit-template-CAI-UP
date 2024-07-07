@@ -106,6 +106,9 @@ with tab3:
     st.image("src/causalforest.png") # uncomment this line if you would like to add an image
     table = pd.read_csv("src/het_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table
+    
+    table = pd.read_csv("src/ate_doublelasso.csv") # load a table from csv to show it on the page
+    st.table(table) # show table
 
 with tab4:
 

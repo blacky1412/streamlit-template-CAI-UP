@@ -73,7 +73,7 @@ Description of Data: The data includes participants aged 16 to 30, residing in L
     
     """
     )
-    # st.image("<<path to image from project's root, if needed>>") # uncomment this line if you would like to add an image
+    st.image("src/originalpaper.jpeg") # uncomment this line if you would like to add an image
 
 with tab2:
 

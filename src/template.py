@@ -103,7 +103,7 @@ with tab3:
   
     """
     )
-     st.image("src/causalforest.png") # uncomment this line if you would like to add an image
+    st.image("src/causalforest.png") # uncomment this line if you would like to add an image
 
 with tab4:
 

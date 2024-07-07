@@ -107,14 +107,16 @@ with tab3:
     """
     )
     st.image("src/causalforest.png") # uncomment this line if you would like to add an image
-    table = pd.read_csv("src/het_doublelasso.csv") # load a table from csv to show it on the page
-    st.table(table) # show table
+    
 
     st.markdown(""" ### Double Lasso Results
     
     * Performing double lasso on the outcome against the treatment yielded an estimate of 25pp, significant at the 99% confidence level
     * Performing double lasso on the coefficient of the interaction term (gender_male X treatment) yields an estimate of -7pp, significant at the 99% confidence level
     """)
+
+    table = pd.read_csv("src/het_doublelasso.csv") # load a table from csv to show it on the page
+    st.table(table) # show table
     
     table = pd.read_csv("src/ate_doublelasso.csv") # load a table from csv to show it on the page
     st.table(table) # show table
